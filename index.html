@@ -295,8 +295,12 @@
               </div>
               <div class="btn-row">
                 <button class="btn btn-primary" id="startQuizBtn" type="button">Start quiz</button>
-                <button class="btn btn-ghost" id="showFormatBtn" type="button">Question file format</button>
-                <button class="btn btn-ghost" id="reloadTopicsBtn" type="button">Reload topics</button>
+                <button class="btn btn-ghost" id="showFormatBtn" type="button" style="display: none;">
+    Question file format
+  </button>
+                <button class="btn btn-ghost" id="reloadTopicsBtn" type="button" style="display: none;">
+    Reload topics
+  </button>
               </div>
             </div>
           </div>
@@ -474,10 +478,10 @@
     async function loadTopics() {
       try {
         state.topics = await loadTopicsFromFiles();
-        setLoadStatus('Loaded from JSON files in data folder.');
+        setLoadStatus('✔');
       } catch (error) {
         state.topics = embeddedFallbackTopics;
-        setLoadStatus('Using built-in fallback topics because local JSON loading was blocked.');
+        setLoadStatus('✖');
       }
       renderTopics();
       renderSummary();
