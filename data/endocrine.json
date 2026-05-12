@@ -410,10 +410,10 @@
       "question": "Violations of transpituitary regulation are the basis of changes in production of 1.insulin 2.glucagon 3.parathyrin 4.catecholamines 5. thyroid hormones +",
       "options": [
         "insulin",
-      "glucagon",
-      "parathyrin",
-     "catecholeamine",
-    "thyroid hormone"
+        "glucagon",
+        "parathyrin",
+        "catecholeamine",
+        "thyroid hormone"
       ],
       "correctAnswers": [
         4
