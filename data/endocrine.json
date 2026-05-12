@@ -408,8 +408,16 @@
     {
       "id": "endocrine-26",
       "question": "Violations of transpituitary regulation are the basis of changes in production of 1.insulin 2.glucagon 3.parathyrin 4.catecholamines 5. thyroid hormones +",
-      "options": [],
-      "correctAnswers": [],
+      "options": [
+        "insulin",
+      "glucagon",
+      "parathyrin",
+     "catecholeamine",
+    "thyroid hormone"
+      ],
+      "correctAnswers": [
+        4
+      ],
       "explanation": ""
     },
     {
@@ -452,7 +460,7 @@
       "explanation": ""
     },
     {
-      "id": "endocrine-28",
+      "id": "endocrine-29",
       "question": "Metabolism of hormones is disrupted in diseases by",
       "options": [
         "liver",
@@ -467,47 +475,14 @@
       "explanation": ""
     },
     {
-      "id": "endocrine-29",
+      "id": "endocrine-30",
       "question": "Hypoproteinemia is accompanied by",
       "options": [
-        "an increase in the fraction of free hormone and increasing their effects + 2.an increase in the fraction of free hormone and a decrease in their  effects 3.a decrease in the fraction of free hormone and a decrease in their effects 4.a decrease in the fraction of free hormone and an increase in their  effects 5.the perverse effect of hormones."
-      ],
-      "correctAnswers": [],
-      "explanation": ""
-    },
-    {
-      "id": "endocrine-30",
-      "question": "The peripheral (outside glandular) breaking mechanism of activity of hormones are: 1.deficiency of substrates for the formation of hormones 2. hereditary defect of enzymes for biosynthesis of hormones 3. adenoma of neurosecretory cells of the hypothalamus 4.congenital anomalies of development of glands  5. the blockade of hormone receptors +",
-      "options": [],
-      "correctAnswers": [],
-      "explanation": ""
-    },
-    {
-      "id": "endocrine-31",
-      "question": "When eosinophilic pituitary adenoma during the period of growth the organism develops",
-      "options": [
-        "acromegaly",
-        "gigantism",
-        "dysplasia 4.pituitary dwarfism 5.Itsenko-Cushing’s diseas"
-      ],
-      "correctAnswers": [
-        1
-      ],
-      "explanation": ""
-    },
-    {
-      "id": "endocrine-32",
-      "question": "The sudden cancellation of long-term corticosteroid therapy leads to insufficiency of: 1.parathyroid hormone 2.growth hormone 3.epinephrine  4. ACTH +",
-      "options": [],
-      "correctAnswers": [],
-      "explanation": ""
-    },
-    {
-      "id": "endocrine-33",
-      "question": "Antidiuretic hormone deficiency is characterized by:",
-      "options": [
-        "polyuria, hypostenuria, polydipsia",
-        "polyuria, hyperstenuria, polydipsia 3.oliguria, edema 4.glycosuria, polyuria, polydipsia 5.oliguria, proteinuria, hematuria."
+        "an increase in the fraction of free hormone and increasing their effects",
+        "an increase in the fraction of free hormone and a decrease in their  effects",
+        "a decrease in the fraction of free hormone and a decrease in their effects",
+        "a decrease in the fraction of free hormone and an increase in their  effects ",
+        "the perverse effect of hormones."
       ],
       "correctAnswers": [
         0
@@ -515,7 +490,66 @@
       "explanation": ""
     },
     {
+      "id": "endocrine-31",
+      "question": "The peripheral (outside glandular) breaking mechanism of activity of hormones are:",
+      "options": [
+        "deficiency of substrates for the formation of hormones",
+        "hereditary defect of enzymes for biosynthesis of hormones",
+        "adenoma of neurosecretory cells of the hypothalamus",
+        "congenital anomalies of development of glands",
+        "the blockade of hormone receptors"
+      ],
+      "correctAnswers": [
+        4
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "endocrine-32",
+      "question": "When eosinophilic pituitary adenoma during the period of growth the organism develops",
+      "options": [
+        "acromegaly",
+        "gigantism",
+        "dysplasia",
+        "pituitary dwarfism",
+        "Itsenko-Cushing’s diseas"
+      ],
+      "correctAnswers": [
+        1
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "endocrine-33",
+      "question": "The sudden cancellation of long-term corticosteroid therapy leads to insufficiency of:",
+      "options": [
+        "parathyroid hormone",
+        "growth hormone",
+        "epinephrine",
+        "ACTH"
+      ],
+      "correctAnswers": [
+        3
+      ],
+      "explanation": ""
+    },
+    {
       "id": "endocrine-34",
+      "question": "Antidiuretic hormone deficiency is characterized by:",
+      "options": [
+        "polyuria, hypostenuria, polydipsia",
+        "polyuria, hyperstenuria, polydipsia",
+        "oliguria, edema",
+        "glycosuria, polyuria, polydipsia",
+        "oliguria, proteinuria, hematuria."
+      ],
+      "correctAnswers": [
+        0
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "endocrine-35",
       "question": "The excitation of the central nervous system, high blood pressure, hyperglycemia, osteoporosis, lymphocytolysis are observed at hyperproduction of",
       "options": [
         "melanostimulating hormone",
@@ -530,12 +564,14 @@
       "explanation": ""
     },
     {
-      "id": "endocrine-35",
+      "id": "endocrine-36",
       "question": "Cause Addison’s disease most often",
       "options": [
         "adrenal hypertrophy",
         "adrenal atrophy",
-        "pituitary tumor 4.autoimmune thyroiditis 5.hyperplasia epiphysis"
+        "pituitary tumor",
+        "autoimmune thyroiditis",
+        "hyperplasia epiphysis"
       ],
       "correctAnswers": [
         1
@@ -543,26 +579,38 @@
       "explanation": ""
     },
     {
-      "id": "endocrine-36",
+      "id": "endocrine-37",
       "question": "In severe cases of hypothyroidism in adults arises",
       "options": [
         "cretinism",
-        "myxedema + 3.eunuch syndrome 4.dwarfism 5.hypergonadism."
+        "myxedema"
+        "eunuch syndrome", 
+        "dwarfism",
+        "hypergonadism."
       ],
       "correctAnswers": [
-        0
+        0,
+        1
       ],
-      "explanation": ""
-    },
-    {
-      "id": "endocrine-37",
-      "question": "Hypoparathyroidism occurs when the pathology of 1.the gonads 2.thyroid gland   3. parathyroid glands + 4. thymus 5. pancreas.",
-      "options": [],
-      "correctAnswers": [],
       "explanation": ""
     },
     {
       "id": "endocrine-38",
+      "question": "Hypoparathyroidism occurs when the pathology of",
+      "options": [
+        "the gonads",
+      "thyroid gland",
+        "parathyroid glands",
+        "thymus",
+        "pancreas.",
+      ],
+      "correctAnswers": [
+        2
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "endocrine-39",
       "question": "When insulin deficiency hyperglycemia is caused by:",
       "options": [
         "decreased glucose utilization by tissues",
@@ -577,7 +625,7 @@
       "explanation": ""
     },
     {
-      "id": "endocrine-39",
+      "id": "endocrine-40",
       "question": "In which cases increased secretion of aldosterone?",
       "options": [
         "decrease in volume of circulating blood",
@@ -594,19 +642,29 @@
       "explanation": ""
     },
     {
-      "id": "endocrine-40",
-      "question": "Enlargement of the thyroid gland, exophthalmus, increase of basal metabolism and heat production, tachycardia, increased mental excitability are characteristic 1.diabetes mellitus 2.hypothyroidism 3.Addison’s disease 4. Basedow’s disease + 5. Cushing’s diseas.",
-      "options": [],
-      "correctAnswers": [],
+      "id": "endocrine-41",
+      "question": "Enlargement of the thyroid gland, exophthalmus, increase of basal metabolism and heat production, tachycardia, increased mental excitability are characteristic",
+      "options": [
+        "diabetes mellitus",
+        "hypothyroidism",
+        "Addison’s disease",
+        "Basedow’s disease",
+        "Cushing’s diseas."
+      ],
+      "correctAnswers": [
+        3
+      ],
       "explanation": ""
     },
     {
-      "id": "endocrine-41",
+      "id": "endocrine-42",
       "question": "Conn’s syndrome (primary aldosteronism) is manifested by",
       "options": [
         "loss of sodium and potassium delay",
         "the retention of sodium and loss of potassium",
-        "oliguria 4.hypotension 5.accumulation of hydrogen ions."
+        "oliguria",
+        "hypotension"
+        "accumulation of hydrogen ions"
       ],
       "correctAnswers": [
         1
@@ -614,7 +672,7 @@
       "explanation": ""
     },
     {
-      "id": "endocrine-42",
+      "id": "endocrine-43",
       "question": "If not enough iodine in the diet develops",
       "options": [
         "hypoparathyroidism",
