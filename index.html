@@ -1449,7 +1449,7 @@
       async function loadTopics() {
         try {
           state.topics = await loadTopicsFromFiles();
-          setLoadStatus("Loaded topics from JSON files.");
+          setLoadStatus("✅");
         } catch (error) {
           state.topics = embeddedFallbackTopics;
           setLoadStatus("Using embedded fallback topics.");
